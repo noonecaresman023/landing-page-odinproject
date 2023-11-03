@@ -23,3 +23,46 @@ for footer and whitespaces: rgb(237, 237, 237) (white)
     --light-gold-c: rgb(241, 209, 138);
     --whitespace-c: rgb(237, 237, 237); 
 }
+
+body{
+    min-height: 100vh;
+}
+
+header{
+    /*will have a background image*/
+}
+
+nav{
+    background-color: var(--blackish-c);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: var(--whitespace-c);
+}
+
+a:visited{
+    color: var(--whitespace-c);
+}
+
+a:focus{
+    color: var(--light-gold-c);
+}
+
+a:hover {
+    color: var(--light-gold-c);
+}
+
+a:active{
+    color: var(--light-gold-c);
+}
+
+.nav-list-grp{
+    text-align: center;
+}
+
+
+/* Create a nav button with animation and interactable w/ js*/
